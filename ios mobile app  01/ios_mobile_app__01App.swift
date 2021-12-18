@@ -2,7 +2,7 @@
 //  ios_mobile_app__01App.swift
 //  ios mobile app  01
 //
-//  Created by mac on 15/12/2021.
+//  Created by mac on 15/12/2021. 
 //
 
 import SwiftUI

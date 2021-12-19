@@ -9,11 +9,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world book")
-            .foregroundColor(Color.white)
-            .padding()
-            .background(Color.purple).cornerRadius(10)
-            .blur(radius: /*@START_MENU_TOKEN@*/4.0/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+        
+        
+        Image("logo-one")
+            
+            Spacer()
+            
+//            bottom
+            HStack{
+                Spacer()
+                VStack{
+               Text("1")
+                Text("text 2")
+                }
+                Spacer()
+                Spacer()
+                VStack{
+               Text("1")
+                Text("text 2")
+                }
+                Spacer()
+                
+            }
+            
+    }
     }
 }
 

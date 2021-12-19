@@ -9,32 +9,56 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+   
         
         VStack{
-        
-        
-        Image("logo-one")
+            
+            Image("logo").padding(.top, 30)
+            Spacer()
+            
+            //            bottom
+                        HStack{
+                            Spacer()
+                            Image("card3")
+                            Spacer()
+                          
+                            Image("card4")
+                            
+                            Spacer()
+                            
+                        }
             
             Spacer()
             
+            Image("dealbutton")
+            
+        Spacer()
 //            bottom
             HStack{
                 Spacer()
                 VStack{
-               Text("1")
-                Text("text 2")
+                    Text("Player").fontWeight(.black).foregroundColor(Color.white).padding(.bottom, 10)
+                    Text("0")
+                        .font(.largeTitle)
+                        .foregroundColor(Color.white)
                 }
                 Spacer()
-                Spacer()
+              
                 VStack{
-               Text("1")
-                Text("text 2")
+                    Text("CPU").fontWeight(.black).foregroundColor(Color.white).padding(.bottom, 10)
+                    Text("0").font(.largeTitle).foregroundColor(Color.white)
                 }
                 Spacer()
                 
             }
+            .padding(.bottom, 30)
             
-    }
+           
+        }
+        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
+        
+      
+        
     }
 }
 

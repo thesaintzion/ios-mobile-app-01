@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-   
-        
+        ZStack{
+            Image("background").ignoresSafeArea()
         VStack{
-            
-            Image("logo").padding(.top, 30)
+            Spacer()
+            Image("logo")
             Spacer()
             
             //            bottom
@@ -51,13 +51,14 @@ struct ContentView: View {
                 Spacer()
                 
             }
-            .padding(.bottom, 30)
+           Spacer()
             
            
         }
-        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.purple/*@END_MENU_TOKEN@*/)
         
-      
+            
+        
+        }
         
     }
 }

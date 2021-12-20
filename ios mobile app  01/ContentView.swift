@@ -12,7 +12,7 @@ struct ContentView: View {
             //            bottom
                         HStack{
                             Spacer()
-                            Image("card")
+                            Image("card3")
                             Spacer()
                           
                             Image("card4")
@@ -48,8 +48,6 @@ struct ContentView: View {
             
            
         }
-        
-            
         
         }
         

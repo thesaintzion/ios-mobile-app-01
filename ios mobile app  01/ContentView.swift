@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  ios mobile app  01
-//
-//  Created by mac on 15/12/2021.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -19,7 +12,7 @@ struct ContentView: View {
             //            bottom
                         HStack{
                             Spacer()
-                            Image("card3")
+                            Image("card")
                             Spacer()
                           
                             Image("card4")
